@@ -23,17 +23,17 @@ export default function page() {
     <div className='box'>
       <img alt={please ? 'capoo excited' : 'capoo flowers'} className='gif' 
         src={please ? '/capoo-excited.gif' : '/capoo-flowers.gif'} />
-      Will you go out with me?
+      Birlikde gedek?
       <div className='btns'>
         <Link className='yes' href='/yay'>
           <button onMouseOver={prettyPlease} onMouseOut={prettyPlease}>
-            Yes
+            He ♡
           </button>
         </Link>
         <button className='no' 
           style={p ? {position: 'absolute', top: p.x, right: p.y} : null} 
           onClick={nope} onMouseOver={nope}>
-            No
+            Yox ☹
         </button> 
       </div>
     </div>
