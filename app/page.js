@@ -23,7 +23,7 @@ export default function page() {
     <div className='box'>
       <img alt={please ? 'capoo excited' : 'capoo flowers'} className='gif' 
         src={please ? '/capoo-excited.gif' : '/capoo-flowers.gif'} />
-      Birlikde filme gedek?
+      Size getirim kitabi?
       <div className='btns'>
         <Link className='yes' href='/yay'>
           <button onMouseOver={prettyPlease} onMouseOut={prettyPlease}>
